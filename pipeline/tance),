@@ -1,0 +1,23 @@
++-----------------------+-----------------------------+
+| [38;5;47;01mcolumn_name[39;00m           | [38;5;47;01mdata_type[39;00m                   |
+|-----------------------+-----------------------------|
+| VendorID              | bigint                      |
+| tpep_pickup_datetime  | timestamp without time zone |
+| tpep_dropoff_datetime | timestamp without time zone |
+| passenger_count       | bigint                      |
+| trip_distance         | double precision            |
+| RatecodeID            | bigint                      |
+| store_and_fwd_flag    | text                        |
+| PULocationID          | bigint                      |
+| DOLocationID          | bigint                      |
+| payment_type          | bigint                      |
+| fare_amount           | double precision            |
+| extra                 | double precision            |
+| mta_tax               | double precision            |
+| tip_amount            | double precision            |
+| tolls_amount          | double precision            |
+| improvement_surcharge | double precision            |
+| total_amount          | double precision            |
+| congestion_surcharge  | double precision            |
++-----------------------+-----------------------------+
+SELECT 18
